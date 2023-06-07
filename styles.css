@@ -1,0 +1,39 @@
+
+
+header,
+.flex.intro,
+footer {
+    background-color: rgb(48, 48, 71);
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 40px;
+    font-family: hero; 
+}
+
+header .title {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 18px 
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header a:hover {
+    color: rgb(93, 116, 247);
+}
