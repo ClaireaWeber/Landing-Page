@@ -37,3 +37,34 @@ header a {
 header a:hover {
     color: rgb(93, 116, 247);
 }
+
+.flex.intro {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex.intro .left {
+    align-items: flex-start;
+}
+
+.flex.intro .title {
+    flex-wrap: wrap;
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+}
+
+.flex.intro .content {
+    font-size: 18px;
+}
+
+.flex.intro button {
+    background-color: rgb(74, 74, 240)
+}
+
+.flex.intro .image {
+    justify-content: center;
+    padding: 50px;
+}
