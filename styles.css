@@ -11,8 +11,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 0px 40px;
-    font-family: hero; 
+    padding: 0px 40px; 
 }
 
 header .title {
@@ -35,36 +34,99 @@ header a {
 }
 
 header a:hover {
-    color: rgb(93, 116, 247);
+    color: #3882f6;
 }
 
 .flex.intro {
     display: flex;
-    padding: 20px;
-    justify-content: center;
-    align-items: center;
-}
-
-.flex.intro .left {
     align-items: flex-start;
+    padding: 50px;
 }
 
-.flex.intro .title {
-    flex-wrap: wrap;
-    font-size: 48px;
-    font-weight: bolder;
-    color: white;
+.flex.intro .text {
+    flex: 1;
+    padding: 40px;
 }
 
-.flex.intro .content {
+.flex.intro h1 {
+   font-size: 48px;
+   font-weight: bold; 
+}
+
+.flex.intro p {
     font-size: 18px;
+    color:rgb(216, 216, 216)
 }
 
 .flex.intro button {
-    background-color: rgb(74, 74, 240)
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 100px;
 }
 
-.flex.intro .image {
+.flex.intro img {
+    align-self: center;
     justify-content: center;
+    width: 400px;
+    margin-left: auto;
+}
+
+h2 {
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.images img {
+    width: 200px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color:#3882f6; 
+    border-width: 6px;
+}
+
+.quote.text {
+    background-color: rgb(221, 221, 221);
     padding: 50px;
+    margin-top: 50px;
+}
+
+.quote.text .quote {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quote.text .author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+    padding: 20px;
+}
+
+.sign.up {
+   background-color: #3882f6; 
+   margin: 50px;
+   border-radius: 6px;
+   color: white;
+   font-size: 24px;
+   padding: 30px;
+   display: flex;
+}
+
+.sign.up .text {
+    font-size: 24px;
+}
+
+.sign.up button {
+    text-align: right;
 }
