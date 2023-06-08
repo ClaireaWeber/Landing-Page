@@ -137,3 +137,9 @@ h2 {
     width: 100px;
     margin-left: auto;
 }
+
+footer {
+    padding: 50px;
+    font-size: 18px;
+    text-align: center;
+}
